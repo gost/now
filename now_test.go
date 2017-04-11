@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-//TestIso8601 tests the ToIso8601 function
+// TestIso8601 tests the ToIso8601 function
 func TestPostgresIoso8601(t *testing.T) {
 	// arrange
 	var postgresperiod = `["2014-03-01 13:00:00+00","2015-05-11 15:30:00+00"]`
