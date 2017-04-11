@@ -17,5 +17,4 @@ func TestPostgresIoso8601(t *testing.T) {
 
 	// assert
 	assert.Equal(t, expectedResult, iso8601Period, "Iso8601 error")
-
 }

@@ -26,7 +26,7 @@ func (p *Period) UnmarshalJSON(buf []byte) error {
 	return nil
 }
 
-// GetPeriodFromPostgresString converts Postgres period string to object 
+// GetPeriodFromPostgresString converts Postgres period string to object
 func GetPeriodFromPostgresString(period string) Period {
 	var p Period
 	if err := json.Unmarshal([]byte(period), &p); err != nil {
